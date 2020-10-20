@@ -1,0 +1,103 @@
+#products {
+    padding: 87px 0 40px 0;
+}
+#products .container {
+    width: 960px;
+}
+.products-text {
+    margin-bottom: calc(var(--base-size-xl) * 5 + 10px); /*90px;*/
+   
+}
+.products-text__head {
+    position: relative;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--main-title-text-color);
+    margin-bottom: calc(var(--base-size-xl) * 3 - 4px); /*44px;*/
+    z-index: 99;
+}
+.products-text__head:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -14px;
+    right: 0;
+    width: calc(var(--base-size-xl) * 25); /*400px;*/
+    height: calc(var(--base-size-xl) * 4 - 2px); /*62px;*/
+    background-color: var(--button-bgcolor);
+    z-index: -1;
+}
+.products-text__description {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--main-text-color);
+    text-align: justify;
+    margin-bottom: calc(var(--base-size-xl) + 4px); /*20px;*/
+}
+
+/*стили для слайдера*/
+.products-slider__top {
+    margin-bottom: var(--base-size-l); /*12px;*/
+}
+.products-slider__top img {
+    outline: none;
+}
+.products-slider__top img:hover {
+    cursor: grabbing;
+}
+.products-slider__bottom {
+    padding: 0 calc(var(--base-size-l) * 2); /*0 24px;*/
+    overflow-y: hidden;
+}
+.products-slider__item {
+    margin: 0 calc(var(--base-size-s) + 1px); /*0 5px;*/
+    height: calc(var(--base-size-xl) * 4 + 14px); /*78px;*/
+    outline: none;
+    position: relative;
+}
+.products-slider__item img {
+    height: 100%;
+    overflow: hidden;
+}
+.products-slider__item:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.products-slider__bottom,
+.slick-current:after {
+    background-color: rgba(0, 0, 0, 0);
+}
+.slider-arrow  {
+    position: absolute;
+    top: 0;
+    width: calc(var(--base-size-l) * 2 - 2px); /*22px;*/
+    height: 100%;
+    z-index: 3;
+}
+.slider-arrow_left {
+    left: 0;
+    transition: 0.2s;
+    border: 1px solid var( --button-bgcolor);
+    background: url(../img/Products-slider/disable-arrow-left.png) center no-repeat;
+}
+.slider-arrow_left:hover {
+    background: var(--button-bgcolor) url(../img/Products-slider/active-arrow-left.png) center no-repeat;
+    cursor: pointer;
+    outline: none;
+}
+.slider-arrow_right {
+    right: 0;
+    transition: 0.2s;
+    border: 1px solid var( --button-bgcolor);
+    background: url(../img/Products-slider/disable-arrow-right.png) center no-repeat;
+}
+.slider-arrow_right:hover {
+    background: var(--button-bgcolor) url(../img/Products-slider/active-arrow-right.png) center no-repeat;
+    cursor: pointer;
+    outline: none;
+}
