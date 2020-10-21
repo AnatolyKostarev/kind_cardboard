@@ -28,5 +28,6 @@
         wp_register_script( 'jquery', get_template_directory_uri(  ) . './assets/js/jquery-3.3.1.min.js' );
         wp_enqueue_script( 'jquery' );
         wp_enqueue_script( 'slick', get_template_directory_uri(  ) . './assets/slick/slick.min.js', array( 'jquery' ), null, true );
+        wp_enqueue_script( 'wow', get_template_directory_uri() . './assets/js/wow.min.js' );
     }
 ?>
