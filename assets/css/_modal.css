@@ -1,0 +1,112 @@
+.overlay {
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* .overlay.active {
+    visibility: visible;
+} */
+.popup {
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 375px);
+    background-color: #fff;
+    width: 750px;
+    height: 345px;
+}
+.popup-title {
+    height: 68px;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ff9d00;
+    text-align: center;
+    padding: 23px 0;
+}
+.popup-cross {
+    position: absolute;
+    height: 9px;
+    right: -10px;
+    top: -20px;
+    color: #fff;
+    transform: scale(1.6);
+    cursor: pointer;
+}
+.popup-form {
+    display: flex;
+    flex-flow: column nowrap;
+    background: url(../img/Overlay/popup_bcg.jpg) center no-repeat;
+}
+.popup-form__title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 41px;
+    text-align: center;
+}
+.popup-form__subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 23px;
+    text-align: center;
+}
+.popup-form__get {
+    display: block;
+    margin: 0 auto ;
+}
+.popup-form__label {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 17px;
+    text-align: center;
+}
+.popup__inputphone {
+    padding: calc(var(--base-size-xl) + 5px) calc(var(--base-size-xl) * 5 + 14px); /*7px 95px;*/
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #373737;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: var(--main-border-radius);
+}
+.popup__inputphone:invalid {
+    box-shadow: none;
+}
+.popup__button {
+    padding: calc(var(--base-size-xl) + 4px) calc(var(--base-size-xl) * 2 + 2px); /*20px 34px;*/
+    color: var(--button-text-color);
+    background: var(--button-bgcolor);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: var(--main-border-radius);
+}
+.popup__button:hover {
+    background: var(--button-bgcolor-hover);
+}
+
+.popup__button:focus {
+    background: var(--button-bgcolor-pressed);
+}
+.popup__minorder {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 9px;
+    padding-bottom: 22px;
+    text-align: center;
+}

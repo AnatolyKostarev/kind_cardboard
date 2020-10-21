@@ -1,0 +1,71 @@
+/*Блок с шапкой приложения*/
+
+.header {
+    padding: calc(var(--base-size-xl) * 4) 0 calc(var(--base-size-xl) - 2px) 0;
+}
+.header .container {
+    width: 960px;
+}
+/*иконка бургер меню, которая отображается на экранах с малым разрешением*/
+
+.header-logo__icon {
+   display: none;
+}
+
+/*логотип, который отображается на экранах с малым разрешением вместо основного логотипа*/
+
+.header-logo__mobile {
+    display: none;
+}
+
+.header-text { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-text__button {
+    display: flex;
+    align-items: center;
+    padding: var(--base-size-l) calc(var(--base-size-xl) + 4px);
+    color: var(--button-text-color);
+    background: var(--button-bgcolor);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: var(--main-border-radius);
+}
+
+.header-text__button:hover {
+    background: var(--button-bgcolor-hover);
+}
+
+.header-text__button:focus {
+    background: var(--button-bgcolor-pressed);
+}
+
+.header-text__icon {
+    margin-right: var(--base-size-m);
+}
+
+.header-text__phone {
+    position: relative;
+    margin-right: calc(var(--base-size-l) * 2);
+    font-size: 22px;
+    font-weight: 500;
+} 
+
+.header-text__phone:nth-child(1)::after {
+    position: absolute;
+    display: block;
+    right: -14px;
+    bottom: -6px;
+    content: '';
+    width: 1px;
+    height: calc(var(--base-size-xl) * 2);
+    background: #cfcfcf;
+}
+
+/*КОНЕЦ БЛОКА HEADER*/

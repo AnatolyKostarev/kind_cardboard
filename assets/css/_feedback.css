@@ -1,0 +1,48 @@
+#feedback {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+.feedback-text__head {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #313131;
+}
+.feedback-text__head:after {
+    content: '';
+    background: url(../img/Feedback/wave_feedback_icon.png) center no-repeat;
+    display: block;
+    height: 6px;
+    margin-top: 12px;
+}
+.feedback-slider {
+    margin-top: 30px;
+    padding: 0 130px;
+}
+
+/* слайдер с отзывами*/
+.feedback-slider_img {
+    outline: none;
+}
+.slider-feedback-arrow  {
+    position: absolute;
+    top: 0;
+    width: calc(var(--base-size-l) * 2 - 2px); /*22px;*/
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+}
+.slider-feedback-arrow_left {
+    left: 110px;
+    background: url(../img/Feedback/disable_arrow_left.png) center no-repeat;
+}
+.slider-feedback-arrow_right {
+    right: 110px;
+    background: url(../img/Feedback/disable_arrow_right.png) center no-repeat;
+}
+.slick-slide img {
+    margin: 0 auto;
+}

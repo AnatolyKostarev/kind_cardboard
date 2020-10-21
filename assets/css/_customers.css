@@ -1,0 +1,55 @@
+#customers {
+    padding-bottom: calc(var(--base-size-xl) * 3 - 7px); /*41px;*/
+    padding-top: 55px;
+    background: var(--main-bgcolor);
+}
+#customers .container {
+    padding-left: calc(var(--base-size-xl) + 4px); /*20px;*/
+    padding-right: calc(var(--base-size-xl) + 4px); /*20px;*/
+    max-width: 960px;
+}
+.customers-text__head {
+    padding-bottom: calc(var(--base-size-xl) + 1px); /*17px;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #313131;
+    position: relative;
+}
+.customers-text__head:after {
+    position: absolute;
+    content: url(../img/Customers/wave_icon_cust.png);
+    top: calc(var(--base-size-xl) + 4px); /*20px;*/
+    left: calc(50% - 23px);
+}
+.customers-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: calc(var(--base-size-xl) * 2 - 2px); /*30px;*/
+}
+.customers-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: calc(var(--base-size-xl) * 8 + 2px); /*130px;*/
+    background-color: var(--main-bgcolor);
+    border: 1px solid rgba(0,0,0,0.09);
+    margin-bottom: calc(var(--base-size-l) * 2); /*24px;*/
+    filter: grayscale(100%);
+    filter: gray;
+    transition-timing-function: linear;
+    transition: all 0.5s;
+    
+}
+.customers-card:hover {
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+    transition: all 0.5s;
+    filter: none;
+    filter: none;
+    cursor: pointer;
+}
