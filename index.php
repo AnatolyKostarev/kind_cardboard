@@ -10,9 +10,9 @@
     <!-- <link rel="stylesheet" href="slick/slick-theme.css"> -->
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
     <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/_modal.css">
-    <link rel="stylesheet" href="css/_menu.css">
+    <link rel="stylesheet" href="css/_menu.css"> -->
     <link rel="stylesheet" href="css/_header.css">
     <link rel="stylesheet" href="css/_main.css">
     <link rel="stylesheet" href="css/_features.css">
