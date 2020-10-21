@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/Header/header-logo-320.png" type="image/x-icon">
     <!-- <link rel="stylesheet" href="js/animate.css"> -->
     <!-- <link rel="stylesheet" href="slick/slick.css"> -->
-    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!-- <link rel="stylesheet" href="slick/slick-theme.css"> -->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
