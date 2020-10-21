@@ -29,6 +29,9 @@
         wp_enqueue_script( 'jquery' );
         wp_enqueue_script( 'slick', get_template_directory_uri(  ) . './assets/slick/slick.min.js', array( 'jquery' ), null, true );
         wp_enqueue_script( 'wow', get_template_directory_uri() . './assets/js/wow.min.js' );
+<<<<<<< HEAD
         wp_enqueue_script( 'phone_mask', get_template_directory_uri(  ) . './assets/js/jquery.maskedinput.min.js', array( 'jquery' ), null, false );
+=======
+>>>>>>> 61442fb86ce3195645de1b4fd44d7e755154e1fc
     }
 ?>
