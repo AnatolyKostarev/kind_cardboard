@@ -620,7 +620,7 @@
     </section> 
 </footer>
 
-    <script src="js/wow.min.js"></script>
+    <!-- <script src="js/wow.min.js"></script> -->
     <script> 
         new WOW().init();
     </script>
@@ -711,7 +711,7 @@
     </script>
 
     <!--Подключена маска телефона-->
-    <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
     <script>
         jQuery(function($){
         $('.main-text__inputphone, .order-text__inputphone, .popup__inputphone').mask('+7 (999) 999-99-99');
