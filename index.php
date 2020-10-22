@@ -342,37 +342,37 @@
             <div class="row align-items-center">
                 <div class="col-12 order-2 col-md-12 order-md-2 col-lg-7 order-lg-1 col-xl-7 order-xl-1">
                     <div class="products-slider__top">
-                        <img src="img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
                     </div>
                     <!-- /.products-slider__top -->
                     <div class="products-slider__bottom">
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                     </div>
