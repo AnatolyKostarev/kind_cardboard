@@ -3,42 +3,6 @@
     Author: A. Kostarev
 */
 
-body {
-    background: var(--main-bgcolor);
-    color: var(--main-text-color);
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/*css переменные приложения*/
-:root {
-    /*основные цвета всего приложения*/
-    --main-title-text-color: #fff;
-    --main-bgcolor: #fff;
-    --main-text-color: #373737;
-
-    /*переменные цвета кнопок*/
-
-    --button-text-color: #fff;
-    --button-bgcolor: #ff9d00;
-    --button-bgcolor-hover: #ff8e00;
-    --button-bgcolor-pressed: #ff8800;
-
-
-    /*переменная border-radius*/
-
-    --main-border-radius: 4px;
-
-    /*переменные отступов*/
-
-    --base-size-s: 4px;
-    --base-size-m: 8px;
-    --base-size-l: 12px;
-    --base-size-xl: 16px;
+.header {
+    margin-top: -46px;
 }
