@@ -598,15 +598,18 @@
     </section> 
 </footer>
 
-    <!-- <script src="js/wow.min.js"></script> -->
     <script> 
         new WOW().init();
     </script>
-    <!-- <script src="js/jquery-3.3.1.min.js/jquery-3.3.1.min.js"></script> Подключение jquery -->
-    <!-- <script src="slick/slick.min.js"></script> Подключение slick-slider -->
-    <!--Инициализация слайдера-->
+
+    <!-- Подключение jQuery -->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery-3.3.1.min.js/jquery-3.3.1.min.js"></script>
+
+    <!--Инициализация слайдера. Подключение slick-slider-->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/slick/slick.min.js"></script>
+    
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             $('.products-slider__top').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
