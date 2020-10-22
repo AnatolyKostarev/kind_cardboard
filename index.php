@@ -254,7 +254,7 @@
             <div class="production-wraper">
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/crimp-box_4_valve.jpg" alt="Гофорокороб 4-х клапанный">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/crimp-box_4_valve.jpg" alt="Гофорокороб 4-х клапанный">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофрокороб 4-х клапанный</p>
@@ -268,7 +268,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/crimp_box.jpg" alt="Гофоролоток">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/crimp_box.jpg" alt="Гофоролоток">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофролоток</p>
@@ -282,7 +282,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/box_self_assembled.jpg" alt="Гофрокороб самосборный (сложная высечка)">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/box_self_assembled.jpg" alt="Гофрокороб самосборный (сложная высечка)">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофрокороб самосборный (сложная высечка)</p>
@@ -296,7 +296,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/box_sheet.jpg" alt="Листовой гофрокартон">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/box_sheet.jpg" alt="Листовой гофрокартон">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Листовой гофрокартон</p>
