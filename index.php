@@ -86,9 +86,9 @@
             <div class="row align-items-center">
                 <div class="col-4 col-sm-5 col-md-4">
                     <div class="header-logo">
-                        <img class="header-logo__icon" src="img/Header/menyu_183.png" alt="Иконка бургер меню">
-                        <img class="header-logo__main" src="img/Header/header_logo.png" alt="Логотип добрый картон">
-                        <img class="header-logo__mobile" src="img/Header/header-logo-320(1).png" alt="Логотип добрый картон для мобильного">
+                        <img class="header-logo__icon" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/menyu_183.png" alt="Иконка бургер меню">
+                        <img class="header-logo__main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header_logo.png" alt="Логотип добрый картон">
+                        <img class="header-logo__mobile" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header-logo-320(1).png" alt="Логотип добрый картон для мобильного">
                     </div>
                     <!-- /.header-logo -->
                 </div>
