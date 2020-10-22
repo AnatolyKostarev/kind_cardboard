@@ -692,13 +692,12 @@
     </script>
 
     <!--Подключена маска телефона-->
-    <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.maskedinput.min.js"></script>
     <script>
-        jQuery(function($){
+        jQuery(function($) {
         $('.main-text__inputphone, .order-text__inputphone, .popup__inputphone').mask('+7 (999) 999-99-99');
      });
     </script>
-    <script src="js/jquery.magnific-popup.js"></script>
 
         <!-- Открытие/закрытие модального окна -->
 
