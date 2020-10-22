@@ -3,6 +3,13 @@
     Author: A. Kostarev
 */
 
-.header {
-    margin-top: -46px;
+@media screen and (max-width: 782px) {
+    .header {
+        margin-top: -46px;
+    }
+}
+@media screen and (min-width: 783px) {
+    .header {
+        margin-top: -40px;
+    }
 }
