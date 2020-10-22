@@ -1,32 +1,10 @@
-<?php get_header(); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Добрый картон</title>
-    <link rel="shortcut icon" href="img/Header/header-logo-320.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="js/animate.css"> -->
-    <!-- <link rel="stylesheet" href="slick/slick.css"> -->
-    <!-- <link rel="stylesheet" href="slick/slick-theme.css"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- <link rel="stylesheet" href="css/_modal.css"> -->
-    <!-- <link rel="stylesheet" href="css/_menu.css"> -->
-    <!-- <link rel="stylesheet" href="css/_header.css"> -->
-    <!-- <link rel="stylesheet" href="css/_main.css"> -->
-    <!-- <link rel="stylesheet" href="css/_features.css"> -->
-    <!-- <link rel="stylesheet" href="css/_production.css"> -->
-    <!-- <link rel="stylesheet" href="css/_order.css"> -->
-    <!-- <link rel="stylesheet" href="css/products.css"> -->
-    <!-- <link rel="stylesheet" href="css/_customers.css"> -->
-    <!-- <link rel="stylesheet" href="css/_feedback.css"> -->
-    <!-- <link rel="stylesheet" href="css/_contacts.css"> -->
-    <!-- <link rel="stylesheet" href="css/_footer.css"> -->
-    <!-- <link rel="stylesheet" href="css/media.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header-logo-320.png" type="image/x-icon">
     <?php wp_head(  ); ?>
 </head>
 
@@ -108,9 +86,9 @@
             <div class="row align-items-center">
                 <div class="col-4 col-sm-5 col-md-4">
                     <div class="header-logo">
-                        <img class="header-logo__icon" src="img/Header/menyu_183.png" alt="Иконка бургер меню">
-                        <img class="header-logo__main" src="img/Header/header_logo.png" alt="Логотип добрый картон">
-                        <img class="header-logo__mobile" src="img/Header/header-logo-320(1).png" alt="Логотип добрый картон для мобильного">
+                        <img class="header-logo__icon" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/menyu_183.png" alt="Иконка бургер меню">
+                        <img class="header-logo__main" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header_logo.png" alt="Логотип добрый картон">
+                        <img class="header-logo__mobile" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header-logo-320(1).png" alt="Логотип добрый картон для мобильного">
                     </div>
                     <!-- /.header-logo -->
                 </div>
@@ -126,7 +104,7 @@
                         </div>
                         <!-- /.header-phone -->
                         <button class="header-text__button">
-                            <img class="header-text__icon" src="img/Header/phone_icon.png" alt="Иконка телефон">Заказать звонок
+                            <img class="header-text__icon" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/phone_icon.png" alt="Иконка телефон">Заказать звонок
                         </button>
                         <!-- /.header-button -->
                     </div>
@@ -149,7 +127,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-5">
                     <div class="main-img hidden-mobile wow fadeInLeft" data-wow-delay="0.2s">
-                        <img class="main-boxes__img" src="img/Main/main-boxes-img.png" alt="Картонные коробки">
+                        <img class="main-boxes__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Main/main-boxes-img.png" alt="Картонные коробки">
                     </div>
                     <!-- /.main-img -->
                 </div>
@@ -204,7 +182,7 @@
         <div class="features-cards">
                 <div class="features-card__slip wow fadeInUp" data-wow-delay="0.2s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/Plant.png" alt="Производство">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/Plant.png" alt="Производство">
                 </div>
                 <!-- /.features-img__left -->
                         <h4 class="features-item" >Производство</h4>
@@ -213,7 +191,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip wow fadeInUp" data-wow-delay="0.4s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/free_simples.png" alt="Бесплатные образцы">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/free_simples.png" alt="Бесплатные образцы">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Бесплатные образцы</h4>
@@ -222,7 +200,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="0.6s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/quality.png" alt="Стабильное качество">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/quality.png" alt="Стабильное качество">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Стабильное качество</h4>
@@ -231,7 +209,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="0.8s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/insure_inventory.png" alt="Страховой запас">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/insure_inventory.png" alt="Страховой запас">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Страховой запас</h4>
@@ -240,7 +218,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="1s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/flex_print.png" alt="Флексопечать">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/flex_print.png" alt="Флексопечать">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Флексопечать</h4>
@@ -249,7 +227,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="1.2s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/hydro_adds.png" alt="Гидрофобные добавки">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/hydro_adds.png" alt="Гидрофобные добавки">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Гидрофобные добавки</h4>
@@ -276,7 +254,7 @@
             <div class="production-wraper">
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/crimp-box_4_valve.jpg" alt="Гофорокороб 4-х клапанный">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/crimp-box_4_valve.jpg" alt="Гофорокороб 4-х клапанный">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофрокороб 4-х клапанный</p>
@@ -290,7 +268,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/crimp_box.jpg" alt="Гофоролоток">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/crimp_box.jpg" alt="Гофоролоток">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофролоток</p>
@@ -304,7 +282,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/box_self_assembled.jpg" alt="Гофрокороб самосборный (сложная высечка)">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/box_self_assembled.jpg" alt="Гофрокороб самосборный (сложная высечка)">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Гофрокороб самосборный (сложная высечка)</p>
@@ -318,7 +296,7 @@
 
                 <div class="production-card">
                     <div class="production-card__img">
-                        <img src="img/Production/box_sheet.jpg" alt="Листовой гофрокартон">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Production/box_sheet.jpg" alt="Листовой гофрокартон">
                     </div>
                     <!-- /.production-card__img -->
                     <p class="production-card__text">Листовой гофрокартон</p>
@@ -364,37 +342,37 @@
             <div class="row align-items-center">
                 <div class="col-12 order-2 col-md-12 order-md-2 col-lg-7 order-lg-1 col-xl-7 order-xl-1">
                     <div class="products-slider__top">
-                        <img src="img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
-                        <img src="img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
                     </div>
                     <!-- /.products-slider__top -->
                     <div class="products-slider__bottom">
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/slider_main.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-one.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-two.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-three.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-four.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                         <div class="products-slider__item">
-                            <img src="img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Products-slider/gofro-slider-five.jpg" alt="Гофоропродукция">
                         </div>
                         <!-- /.products-slider__item -->
                     </div>
@@ -431,84 +409,84 @@
             <div class="customers-wraper">
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/rise_icon_1.png" alt="Восход">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/rise_icon_1.png" alt="Восход">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/sterh_icon_2.png" alt="Стерх">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/sterh_icon_2.png" alt="Стерх">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/silversnow_icon_3.png" alt="Серебряный снег">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/silversnow_icon_3.png" alt="Серебряный снег">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/avdon_icon_4.png" alt="Авдон">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/avdon_icon_4.png" alt="Авдон">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/chicken_icon_5.png" alt="Турбаслинские бройлеры">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/chicken_icon_5.png" alt="Турбаслинские бройлеры">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/bash_icecream_icon_6.png" alt="Башкирское мороженое">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/bash_icecream_icon_6.png" alt="Башкирское мороженое">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/allat_icon_7.png" alt="Аллат">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/allat_icon_7.png" alt="Аллат">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/alternative_icon_8.png" alt="Альтернатива">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/alternative_icon_8.png" alt="Альтернатива">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/pavos_icon_9.png" alt="Индюшкин">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/pavos_icon_9.png" alt="Индюшкин">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/salavatglass_icon_10.png" alt="Салаватстекло">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/salavatglass_icon_10.png" alt="Салаватстекло">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/milk_farmer_11.png" alt="Молочный фермер">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/milk_farmer_11.png" alt="Молочный фермер">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/megi_icon_12.png" alt="Меги">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/megi_icon_12.png" alt="Меги">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
@@ -534,27 +512,27 @@
                     <!-- /.feedback-text -->
                     <div class="feedback-slider">
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img1.png" alt="Отзыв 1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img1.png" alt="Отзыв 1">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img2.png" alt="Отзыв 2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img2.png" alt="Отзыв 2">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img3.png" alt="Отзыв 3">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img3.png" alt="Отзыв 3">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img1.png" alt="Отзыв 1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img1.png" alt="Отзыв 1">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img2.png" alt="Отзыв 2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img2.png" alt="Отзыв 2">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img3.png" alt="Отзыв 3">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img3.png" alt="Отзыв 3">
                         </div>
                         <!-- /.feedback-slider_img -->
                     </div>
@@ -620,15 +598,18 @@
     </section> 
 </footer>
 
-    <!-- <script src="js/wow.min.js"></script> -->
     <script> 
         new WOW().init();
     </script>
-    <!-- <script src="js/jquery-3.3.1.min.js/jquery-3.3.1.min.js"></script> Подключение jquery -->
-    <!-- <script src="slick/slick.min.js"></script> Подключение slick-slider -->
-    <!--Инициализация слайдера-->
+
+    <!-- Подключение jQuery -->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery-3.3.1.min.js/jquery-3.3.1.min.js"></script>
+
+    <!--Инициализация слайдера. Подключение slick-slider-->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/slick/slick.min.js"></script>
+    
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             $('.products-slider__top').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -711,13 +692,12 @@
     </script>
 
     <!--Подключена маска телефона-->
-    <!-- <script src="js/jquery.maskedinput.min.js"></script> -->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery.maskedinput.min.js"></script>
     <script>
-        jQuery(function($){
+        jQuery(function($) {
         $('.main-text__inputphone, .order-text__inputphone, .popup__inputphone').mask('+7 (999) 999-99-99');
      });
     </script>
-    <script src="js/jquery.magnific-popup.js"></script>
 
         <!-- Открытие/закрытие модального окна -->
 
@@ -755,4 +735,3 @@
 
 </body>
 </html>
-<?php get_footer(); ?>

@@ -3,6 +3,6 @@
     Author: A. Kostarev
 */
 
-body {
-    background: red;
+.header {
+    margin-top: -46px;
 }
