@@ -1,32 +1,10 @@
-<?php get_header(); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Добрый картон</title>
-    <link rel="shortcut icon" href="img/Header/header-logo-320.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="js/animate.css"> -->
-    <!-- <link rel="stylesheet" href="slick/slick.css"> -->
-    <!-- <link rel="stylesheet" href="slick/slick-theme.css"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- <link rel="stylesheet" href="css/_modal.css"> -->
-    <!-- <link rel="stylesheet" href="css/_menu.css"> -->
-    <!-- <link rel="stylesheet" href="css/_header.css"> -->
-    <!-- <link rel="stylesheet" href="css/_main.css"> -->
-    <!-- <link rel="stylesheet" href="css/_features.css"> -->
-    <!-- <link rel="stylesheet" href="css/_production.css"> -->
-    <!-- <link rel="stylesheet" href="css/_order.css"> -->
-    <!-- <link rel="stylesheet" href="css/products.css"> -->
-    <!-- <link rel="stylesheet" href="css/_customers.css"> -->
-    <!-- <link rel="stylesheet" href="css/_feedback.css"> -->
-    <!-- <link rel="stylesheet" href="css/_contacts.css"> -->
-    <!-- <link rel="stylesheet" href="css/_footer.css"> -->
-    <!-- <link rel="stylesheet" href="css/media.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/header-logo-320.png" type="image/x-icon">
     <?php wp_head(  ); ?>
 </head>
 
