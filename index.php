@@ -409,84 +409,84 @@
             <div class="customers-wraper">
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/rise_icon_1.png" alt="Восход">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/rise_icon_1.png" alt="Восход">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/sterh_icon_2.png" alt="Стерх">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/sterh_icon_2.png" alt="Стерх">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/silversnow_icon_3.png" alt="Серебряный снег">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/silversnow_icon_3.png" alt="Серебряный снег">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/avdon_icon_4.png" alt="Авдон">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/avdon_icon_4.png" alt="Авдон">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/chicken_icon_5.png" alt="Турбаслинские бройлеры">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/chicken_icon_5.png" alt="Турбаслинские бройлеры">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/bash_icecream_icon_6.png" alt="Башкирское мороженое">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/bash_icecream_icon_6.png" alt="Башкирское мороженое">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/allat_icon_7.png" alt="Аллат">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/allat_icon_7.png" alt="Аллат">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/alternative_icon_8.png" alt="Альтернатива">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/alternative_icon_8.png" alt="Альтернатива">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/pavos_icon_9.png" alt="Индюшкин">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/pavos_icon_9.png" alt="Индюшкин">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/salavatglass_icon_10.png" alt="Салаватстекло">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/salavatglass_icon_10.png" alt="Салаватстекло">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/milk_farmer_11.png" alt="Молочный фермер">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/milk_farmer_11.png" alt="Молочный фермер">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
                 <!-- /.customers-card -->
                 <div class="customers-card">
                     <div class="customers-card__img">
-                        <img src="img/Customers/megi_icon_12.png" alt="Меги">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Customers/megi_icon_12.png" alt="Меги">
                     </div>
                     <!-- /.customers-card__img --> 
                 </div>
