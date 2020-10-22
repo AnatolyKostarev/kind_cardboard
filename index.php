@@ -191,7 +191,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip wow fadeInUp" data-wow-delay="0.4s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/free_simples.png" alt="Бесплатные образцы">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/free_simples.png" alt="Бесплатные образцы">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Бесплатные образцы</h4>
@@ -200,7 +200,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="0.6s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/quality.png" alt="Стабильное качество">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/quality.png" alt="Стабильное качество">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Стабильное качество</h4>
@@ -209,7 +209,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="0.8s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/insure_inventory.png" alt="Страховой запас">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/insure_inventory.png" alt="Страховой запас">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Страховой запас</h4>
@@ -218,7 +218,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="1s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/flex_print.png" alt="Флексопечать">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/flex_print.png" alt="Флексопечать">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Флексопечать</h4>
@@ -227,7 +227,7 @@
                 <!-- /.features-card__slip -->
                 <div class="features-card__slip card__slip wow fadeInUp" data-wow-delay="1.2s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/hydro_adds.png" alt="Гидрофобные добавки">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/hydro_adds.png" alt="Гидрофобные добавки">
                     </div>
                     <!-- /.features-img__left -->
                         <h4 class="features-item">Гидрофобные добавки</h4>
