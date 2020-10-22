@@ -104,7 +104,7 @@
                         </div>
                         <!-- /.header-phone -->
                         <button class="header-text__button">
-                            <img class="header-text__icon" src="img/Header/phone_icon.png" alt="Иконка телефон">Заказать звонок
+                            <img class="header-text__icon" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Header/phone_icon.png" alt="Иконка телефон">Заказать звонок
                         </button>
                         <!-- /.header-button -->
                     </div>
