@@ -512,27 +512,27 @@
                     <!-- /.feedback-text -->
                     <div class="feedback-slider">
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img1.png" alt="Отзыв 1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img1.png" alt="Отзыв 1">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img2.png" alt="Отзыв 2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img2.png" alt="Отзыв 2">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img3.png" alt="Отзыв 3">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img3.png" alt="Отзыв 3">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img1.png" alt="Отзыв 1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img1.png" alt="Отзыв 1">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img2.png" alt="Отзыв 2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img2.png" alt="Отзыв 2">
                         </div>
                         <!-- /.feedback-slider_img -->
                         <div class="feedback-slider_img">
-                            <img src="img/Feedback/feedback-img3.png" alt="Отзыв 3">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feedback/feedback-img3.png" alt="Отзыв 3">
                         </div>
                         <!-- /.feedback-slider_img -->
                     </div>
