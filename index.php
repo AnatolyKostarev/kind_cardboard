@@ -182,7 +182,7 @@
         <div class="features-cards">
                 <div class="features-card__slip wow fadeInUp" data-wow-delay="0.2s">
                     <div class="features-img__left">
-                        <img src="img/Feartures/Plant.png" alt="Производство">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Feartures/Plant.png" alt="Производство">
                 </div>
                 <!-- /.features-img__left -->
                         <h4 class="features-item" >Производство</h4>
