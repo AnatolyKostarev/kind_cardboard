@@ -127,7 +127,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-5">
                     <div class="main-img hidden-mobile wow fadeInLeft" data-wow-delay="0.2s">
-                        <img class="main-boxes__img" src="img/Main/main-boxes-img.png" alt="Картонные коробки">
+                        <img class="main-boxes__img" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/Main/main-boxes-img.png" alt="Картонные коробки">
                     </div>
                     <!-- /.main-img -->
                 </div>
