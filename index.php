@@ -21,7 +21,7 @@
             <div class="popup-form">
                 <p class="popup-form__title">Получите индивидуальное предложение</p>
                 <p class="popup-form__subtitle">на производство и поставку изделий</p>
-                    <form id="form" class="popup-form__get" action="mailer/smart.php" method="POST">
+                    <form id="form" class="popup-form__get" action="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/mailer/smart.php" method="POST">
                         <label class="popup-form__label" for="tel">Введите ваш номер телефона:</label>
                         <input class="popup__inputphone" id="tel" autocomplete="off" type="tel" name="user__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
                         <button type="submit" class="popup__button">Оставить заявку!</button>
@@ -139,7 +139,7 @@
                         <h3 class="main-text__get">Получите индивидуальное предложение<br>
                         на производство и поставку гофропродукции</h3>
                         <p class="main-text__simple">образцы и упаковка бесплатно!</p>
-                        <form id="form" class="main-text__form" action="mailer/smart.php" method="POST">
+                        <form id="form" class="main-text__form" action="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/mailer/smart.php" method="POST">
                             <input name="user__phone" class="main-text__inputphone" autocomplete="off" size="23" placeholder="Введите номер телефона" type="tel" required>
                             <button type="submit" class="main-text__button">Оставить заявку!</button>
                         </form>
@@ -322,7 +322,7 @@
             <div class="order-text">
                 <p class="order-text__get">Получите индивидуальное предложение</p>
                 <p class="order-text__simple">на производство и поставку изделий</p>
-                <form id="form" class="order-text__form" action="mailer/smart.php" method="POST">
+                <form id="form" class="order-text__form" action="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/mailer/smart.php" method="POST">
                     <label class="order-text__label" for="tel1">Введите ваш номер телефона:</label>
                     <input class="order-text__inputphone" id="tel1" autocomplete="off" type="tel" name="user__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
                     <button type="submit" class="order-text__button">Оставить заявку!</button>
@@ -722,7 +722,7 @@
                 $(".overlay").css("display", "none");
             $.ajax({
                 type: "POST",
-                url: "mailer/smart.php",
+                url: "<?php echo esc_url( get_template_directory_uri() ); ?>/assets/mailer/smart.php",
                 data: $(this).serialize()
                 }).done(function() {
                     $(this).find("input").val("");
